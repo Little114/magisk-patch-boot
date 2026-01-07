@@ -19,6 +19,7 @@ Magisk Patcher CLI 是一个命令行版本的Magisk boot镜像修补工具，�
    - 准备Magisk APK文件
    - 确认当前目录有magiskboot.exe工具
 2. 基本用法
+   - 直接把boot.img拖到magiskpatcher_cli来进行修补[目录需要有magisk.apk]
    - magiskpatcher_cli.py [要修补的boot镜像] --magisk [面具的apk]
 
 命令行参数详解
@@ -101,7 +102,6 @@ magiskpatcher_cli.py [boot文件] --magisk [面具apk] --output "boot.img"
 - 使用Magisk Patcher v4.1.0魔改
 - 作者: Little
 - github:Little114
-- github链接:  https://github.com/Little114/Magisk-Patcher-CLI
 - 酷安:Little114
 
 
